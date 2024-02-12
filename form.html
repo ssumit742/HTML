@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <form action="../HTML practical/submit.html">
+        USERNAME:<input type="text"name="username" placeholder="enter your name" required="true"><br><br>
+        PASSWORD:<input type="password" name="password" placeholder="enter your password"><br><br>
+        <label for="male">Male:</label>
+        <input type="radio" id="male" name="gender" value="male">
+        <label for="female">Female:</label>
+        <input type="radio" id="female" name="gender" value="female">
+        <label for="other">Other:</label>
+        <input type="radio" id="other" name="gender" value="other"><br><br>
+        <label for="c">C:</label>
+        <input type="checkbox" name="lang" id="c"><br>
+        <label for="java">java:</label>
+        <input type="checkbox" name="lang" id="java"><br>
+        <label for="python">python:</label>
+        <input type="checkbox" name="lang" id="python"><br><br>
+        <label for="country">choose your country:</label>
+        <select name="country" id="country">
+            <option value="India">India</option>
+            <option value="US">US</option>
+            <option value="UK">UK</option>
+            <option value="Other">Other</option>
+        </select><br>
+        <textarea name="text" id="" cols="30" rows="10">
+            enter your suggestion
+        </textarea><br><br>
+        <label for="number">enter your number:</label>
+        <input type="number" name="number" id="number">
+
+        <input type="submit">
+    </form><br><br><hr>
+    <form>
+        <label for="name"> NAME:</label>
+        <input type="text" name="text" id="name" placeholder="enter your name"> 
+        <label for="password">PASSWORD</label><br>
+        <input type="password" name="password" id="password" placeholder="enter your password">
+        <input type="submit">
+    </form><br><hr>
+    <form action="">
+        Date:<input type="date"><br><br>
+        File:<input type="file"><br><br>
+        Price Range:<input type="range"><br><br>
+        button: <input type="button" name="click me" value="click me">
+
+    </form>
+</body>
+</html>
